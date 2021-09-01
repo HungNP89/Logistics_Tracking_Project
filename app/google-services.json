@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "370671780126",
+    "firebase_url": "https://logistics-tracking-b69bb-default-rtdb.firebaseio.com",
+    "project_id": "logistics-tracking-b69bb",
+    "storage_bucket": "logistics-tracking-b69bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:370671780126:android:85c3731954982588a9890f",
+        "android_client_info": {
+          "package_name": "com.example.logistics_tracking_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "370671780126-k8rhq03m5ma893mf40pfg0e44jk79o4o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYnRg4l330RbujpIi7lcNsUC2beF4g9EQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "370671780126-k8rhq03m5ma893mf40pfg0e44jk79o4o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
