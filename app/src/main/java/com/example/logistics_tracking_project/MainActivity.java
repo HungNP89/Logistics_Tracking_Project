@@ -37,11 +37,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        initComponents();
+        Components();
         permission();
     }
 
-    private void initComponents() {
+    private void Components() {
         qrInput = findViewById(R.id.qr_input);
         qrButtonGenerate = findViewById(R.id.qr_button_generate);
         imageOutput = findViewById(R.id.image_output);
@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view) {
          switch (view.getId()) {
              case R.id.qr_button_generate:
-                 generateQR();
+                 generate();
                  break;
              case R.id.qr_save:
                  save();
@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
          }
     }
 
-    private void generateQR() {
+    private void generate() {
         String text = qrInput.getText().toString().trim();
         if (TextUtils.isEmpty(text)) {
             qrInput.setError("Enter something");
