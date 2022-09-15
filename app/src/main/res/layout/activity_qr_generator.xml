@@ -8,22 +8,23 @@
     android:orientation="vertical"
     android:padding="16dp"
     android:gravity="center_horizontal"
-    tools:context=".MainActivity">
+    tools:context=".QrGenerator">
 
     <EditText
         android:id="@+id/qr_input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:drawable/editbox_background"
-        android:hint="Enter Text"
+        android:hint="@string/enter_text"
         android:padding="16dp" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/qr_button_generate"
-        android:text="Generate QR"
-        android:layout_marginTop="16dp"/>
+        android:text="@string/generate_qr"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black"/>
 
     <Button
         android:id="@+id/qr_save"
@@ -33,7 +34,8 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         android:layout_margin="10dp"
-        android:text="Save to File"
+        android:text="@string/save_to_file"
+        android:textColor="@color/black"
         />
 
     <ImageView
@@ -42,5 +44,4 @@
         android:id="@+id/image_output"
         android:scaleType="fitCenter"
         android:adjustViewBounds="true"/>
-
 </LinearLayout>
